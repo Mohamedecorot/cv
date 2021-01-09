@@ -33,7 +33,6 @@ img {
 
 .bottom {
     padding: 0 10px;
-    text-align: justify;
 }
 
 .title {
@@ -45,6 +44,10 @@ img {
     text-align: center;
     padding: 5px;
     font-weight: bold;
+}
+
+.description {
+    text-align: justify;
 }
 
 .about, .training, .production, .jobs, .study{
@@ -77,4 +80,8 @@ img {
 
 .liste {
     padding: 10px 20px;
+}
+
+.location {
+    margin-bottom: -10px;
 }

@@ -25,14 +25,26 @@ img {
 .container2 {
     margin: 20px;
 }
+
 .top {
     background-color: white;
     color: black
 }
 
+.bottom {
+    padding: 0 10px;
+    text-align: justify;
+}
+
 .title {
     text-transform: uppercase;
     margin-top: 0;
+}
+
+.top .title {
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
 }
 
 .about, .training, .production, .jobs {

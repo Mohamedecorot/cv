@@ -47,7 +47,34 @@ img {
     font-weight: bold;
 }
 
-.about, .training, .production, .jobs {
+.about, .training, .production, .jobs, .study{
     border: solid 1px white;
     margin-bottom: 20px;
+}
+
+.study .title {
+    background-color: white;
+    color: black;
+    padding: 2px 5px;
+}
+
+.study p {
+    padding: 0 10px;
+}
+
+.production .study p {
+    padding-left: 10px;
+}
+
+.production .title {
+    text-transform: none;
+    margin-bottom: 0;
+}
+
+.production .top {
+    margin-bottom: 20px;
+}
+
+.liste {
+    padding: 10px 20px;
 }
